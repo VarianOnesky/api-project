@@ -21,7 +21,8 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/rest-bundle": "~1.5",
         "jms/serializer": "0.16.*",
-        "jms/serializer-bundle": "0.13.*"
+        "jms/serializer-bundle": "0.13.*",
+        "friendsofsymfony/oauth-server-bundle": "~1.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
