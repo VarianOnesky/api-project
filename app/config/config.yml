@@ -89,3 +89,9 @@ fos_oauth_server:
     access_token_class:  Acme\ApiBundle\Entity\AccessToken
     refresh_token_class: Acme\ApiBundle\Entity\RefreshToken
     auth_code_class:     Acme\ApiBundle\Entity\AuthCode
+
+# FOSUserBundle Configuration
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: Acme\ApiBundle\Entity\User
