@@ -81,3 +81,11 @@ fos_rest:
        view_response_listener: force
        formats:
            json : true
+
+# FOSOAuthServerBundle Configuration
+fos_oauth_server:
+    db_driver: orm       # Driver availables: orm, mongodb, or propel
+    client_class:        Acme\ApiBundle\Entity\Client
+    access_token_class:  Acme\ApiBundle\Entity\AccessToken
+    refresh_token_class: Acme\ApiBundle\Entity\RefreshToken
+    auth_code_class:     Acme\ApiBundle\Entity\AuthCode
